@@ -1,0 +1,36 @@
+{
+    "name": "rumeau/rumeaulib-thememanager",
+    "description": "Theme Manager Library for ZF2",
+    "license": "MIT License",
+    "type": "library",
+    "keywords": [
+        "theme",
+        "manager",
+        "zf2"
+    ],
+    "authors": [
+        {
+            "name": "Jean Rumeau",
+            "email": "rumeau@gmail.com",
+            "homepage": "http://www.jprumeau.com/"
+        }
+    ],
+    "require": {
+        "php": ">=5.4",
+        "doctrine/doctrine-orm-module": "0.*",
+        "zendframework/zendframework": "2.3.*"
+    },
+    "homepage": "https://github.com/rumeau/rumeaulibthememanager",
+
+    "suggest": {
+        "rumeau/rumeaulib-admin": "Administration wrapper for ZF2 applications"
+    },
+    "autoload": {
+        "psr-0": {
+            "RumeauLibThemeManager": "src/"
+        },
+        "classmap": [
+            "./Module.php"
+        ]
+    }
+}
